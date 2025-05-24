@@ -1,31 +1,15 @@
-# Project 2 Starter Code
+This project simulates a secure communication challenge set in a fictional space-based storage system called REGULUS — a lunar data platform used to covertly share messages between Earth and Mars without alerting the prying eyes of Caltopia.
 
-This repository contains the starter code for Project 2!
+The objective of this project was to design and implement a secure file sharing system from scratch. The system enables users to create accounts, upload and share files, manage permissions, and revoke access — all while resisting a range of security threats such as data tampering, unauthorized access, and impersonation.
 
-For comprehensive documentation, see the Project 2 Spec (https://cs161.org/proj2/).
+We were given access to a cryptographic library but no predefined architecture — pushing us to carefully design secure data structures and protocols. The implementation focused on ensuring confidentiality, integrity, and access control using concepts such as:
 
-A friendly request: please do not make your solution public!
+Public-key cryptography
+Symmetric encryption
+Digital signatures
+Key management and revocation
+Secure serialization and tamper detection
 
-Write your implementation in `client/client.go` and your integration tests in `client_test/client_test.go`. Optionally, you can also use `client/client_unittest.go` to write unit tests (e.g: to test your helper functions).
+This project required balancing theoretical security principles with real-world system design and was one of the most rigorous exercises in applied cryptography, secure software engineering, and threat modeling.
 
-To test your implementation, run `go test -v` inside of the `client_test` directory. This will run all tests in both `client/client_unittest.go` and `client_test/client_test.go`.
 
-## Project Members
-
-Fill in this section with the student IDs of all the members in your project group.
-
-Partner 1 Name: Dylan Xu
-
-Partner 1 SID: 3037780358
-
-Partner 1 Email: dylanx26@berkeley.edu
-
-Partner 2 Name (if applicable): Yash Shah
-
-Partner 2 SID (if applicable): 3038475364
-
-Partner 2 Email (if applicable): yashshah2311@berkeley.edu
-
-Also add a link to this repo below (should start with https://github.com/cs161-students/).
-
-Link to this Github repo: https://github.com/cs161-students/sp25-proj2-attackers 
